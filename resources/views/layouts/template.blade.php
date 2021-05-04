@@ -11,50 +11,6 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         @yield('css');
-    <style>
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-        }
-
-        #nav {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 0 40px;
-            justify-content: space-between;
-        }
-
-        #nav-logo {
-            width: 6.625rem;
-            height: 3.75rem;
-        }
-
-        #carouselExampleIndicators>ol>li {
-            width: 8px;
-            height: 8px;
-        }
-
-        .lightblue {
-            background-color: #E0E7FF;
-        }
-
-        #form-box {
-            right: 9%;
-            top: 50%;
-            transform: translateY(-50%);
-            min-width: 353px;
-        }
-
-        @media (max-width:768px) {
-            #nav-logo {
-                width: 45px;
-                height: 30px;
-            }
-
-            #title-box>h2 {
-                font-size: 24px;
-            }
-        }
-    </style>
 </head>
 
 <body>
