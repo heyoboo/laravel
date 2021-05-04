@@ -3,9 +3,9 @@
 2. server <br>
    1. gets url <br>
    2. performs logic <br>
-       a. interact with database <br>
-       b. conditional statements <br>
-       c. updates page elements <br>
+       1. interact with database <br>
+       2. conditional statements <br>
+       3. updates page elements <br>
    3. return data
 
 
