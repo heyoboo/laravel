@@ -56,16 +56,16 @@
 
 
 ### For other computers
-> Delete repository and local folder of project
+> Delete repository and local folder of project <br>
 > clone -> choose laveral project -> set folder path 
 
 # install back
-> terminal
+> terminal <br>
     composer install <br>
     npm install
 
 # copy 'env.exmple' and paste and change to '.env'
-> terminal 
+> terminal <br>
     php artisan key:gen <br>
     php artisan serve
 
