@@ -20,7 +20,7 @@
 2. choose xampp php
 3. skip proxy
 4. install
-5. Cmd
+5. Cmd <br>
 `composer`
 
 ### Node.js
@@ -33,19 +33,19 @@
 ### Github
 ### Laravel7
    VScode -> terminal <br>
-> composer create-project --prefer-dist laravel/  laravel:^7.0 [project name]
+`composer create-project --prefer-dist laravel/  laravel:^7.0 [project name]`
 
 
 
-# Check installation on cmd
+# Check installation on terminal
 ## change directory 
-> cd [project name] <br>
+`cd [project name]` <br>
 ## xampp
-> php -v <br>
+`php -v` <br>
 ## composer
-> composer -v <br>
+`composer -v` <br>
 ## artisan
-> php artisan serve <br>
+`php artisan serve` <br>
 
 
 
@@ -72,13 +72,13 @@
 
 # install back
 > terminal <br>
-* composer install <br>
-* npm install
+`composer install` <br>
+`npm install`
 
 # copy 'env.exmple' and paste and change to '.env'
 > terminal <br>
-* php artisan key:gen <br>
-* php artisan serve
+`php artisan key:gen` <br>
+`php artisan serve`
 
 
 
