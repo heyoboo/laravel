@@ -19,6 +19,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('index', function () {
+    return view('index');
+});
+
 
 
 // creat custom route // open on url - /test
@@ -45,7 +49,6 @@ Route::get('varTest',function(){
     $obj['a'],
     $num1 + $num2,
     $num1 . $num2);
-
     
     return 'hello world hhahahahahhhahahha';
 });

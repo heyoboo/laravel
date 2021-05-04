@@ -42,6 +42,7 @@
 
 # VScode extensions
 - lavarel extension pack
+- lavarel blade snippets
 - material icon theme
 - php namespace resolver
 - php extension
