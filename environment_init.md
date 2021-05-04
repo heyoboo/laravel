@@ -33,10 +33,10 @@
 
 
 # Check installation on cmd
-> change directory => dc [project name]
-> xampp => php -v
-> composer => composer -v
-> artisan => php artisan serve
+> change directory => dc [project name] <br>
+> xampp => php -v <br>
+> composer => composer -v <br>
+> artisan => php artisan serve <br>
 
 
 
