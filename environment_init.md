@@ -11,23 +11,23 @@
 
 
 # Installation
-## Xampp
+### Xampp
  download php 7.4.16
 
-## Composer
-### install xampp first. VScode -> terminal <br>
-   check php path
+### Composer
+ install xampp first. VScode -> terminal <br>
+> check php path
 
-## Node.js
-### download 14.16.1 LTS
+### Node.js
+   download 14.16.1 LTS
 
-## HeidiSQL
+### HeidiSQL
 
-## VS code
+### VS code
 
-## Github
-## Laravel7
-### VScode -> terminal <br>
+### Github
+### Laravel7
+   VScode -> terminal <br>
 > composer create-project --prefer-dist laravel/  laravel:^7.0 [project name]
 
 
