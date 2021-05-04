@@ -83,7 +83,7 @@ VsCode -> terminal <br>
 
 
 <br><br>
-*DO NOT ADD NEW TEMINAL* <br>
+*DO NOT ADD NEW TERMINAL* <br>
 *SPLIT TERMINAL THEN USE COMMAND*
 <br><br>
 
