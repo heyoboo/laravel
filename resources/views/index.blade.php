@@ -2,6 +2,50 @@
 @extends('layouts.template')
 
 @section('css')
+<style>
+    body {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    }
+
+    #nav {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 40px;
+        justify-content: space-between;
+    }
+
+    #nav-logo {
+        width: 6.625rem;
+        height: 3.75rem;
+    }
+
+    #carouselExampleIndicators>ol>li {
+        width: 8px;
+        height: 8px;
+    }
+
+    .lightblue {
+        background-color: #E0E7FF;
+    }
+
+    #form-box {
+        right: 9%;
+        top: 50%;
+        transform: translateY(-50%);
+        min-width: 353px;
+    }
+
+    @media (max-width:768px) {
+        #nav-logo {
+            width: 45px;
+            height: 30px;
+        }
+
+        #title-box>h2 {
+            font-size: 24px;
+        }
+    }
+</style>
 @endsection
 
 @section('main')
@@ -13,13 +57,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./image/nekoteacher01.jpg" class="d-block w-100" alt="...">
+                    <img src="{{ asset('img/nekoteacher01.jpg') }}" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./image/nekoteacher02.jpg" class="d-block w-100" alt="...">
+                    <img src="{{ asset('img/nekoteacher02.jpg') }}" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./image/nekoteacher03.jpg" class="d-block w-100" alt="...">
+                    <img src="{{ asset('img/nekoteacher03.jpg') }}" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev d-flex justify-content-start pl-3" href="#carouselExampleIndicators"
@@ -48,7 +92,7 @@
                         <div class="col-md-4  col-lg-3">
                             <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                                 style="width: 80px; height: 80px;">
-                                <img src="./image/svgexport-4.svg" alt="">
+                                <img src="{{ asset('img/svgexport-4.svg') }}" alt="">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-normal">Shooting Stars</h5>
@@ -66,7 +110,7 @@
                         <div class="col-md-4  col-lg-3">
                             <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                                 style="width: 80px; height: 80px;">
-                                <img src="./image/svgexport-6.svg" alt="">
+                                <img src="{{ asset('img/svgexport-6.svg') }}" alt="">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-normal">The Catalyzer</h5>
@@ -84,7 +128,7 @@
                         <div class="col-md-4  col-lg-3">
                             <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                                 style="width: 80px; height: 80px;">
-                                <img src="./image/svgexport-7.svg" alt="">
+                                <img src="{{ asset('svgexport-7.svg') }}" alt="">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-normal">Neptune</h5>
@@ -118,16 +162,16 @@
             <div class="col-lg-10 d-flex pt-5 mx-auto">
                 <div class="col-6 px-0">
                     <div class="col d-flex px-0">
-                        <img class="col-6 px-1 px-md-3" src="./image/500x300.png" alt="">
-                        <img class="col-6 px-1 px-md-3" src="./image/501x301.png" alt="">
+                        <img class="col-6 px-1 px-md-3" src="{{ asset('img/500x300.png') }}" alt="">
+                        <img class="col-6 px-1 px-md-3" src="{{ asset('img/501x301.png') }}" alt="">
                     </div>
-                    <img class="col pt-2 pt-md-4 px-1 px-md-3" src="./image/601x361.png" alt="">
+                    <img class="col pt-2 pt-md-4 px-1 px-md-3" src="{{ asset('img/601x361.png') }}" alt="">
                 </div>
                 <div class="col-6 px-0">
-                    <img class="col pb-2 pb-md-4 px-1 px-md-3" src="./image/600x360.png" alt="">
+                    <img class="col pb-2 pb-md-4 px-1 px-md-3" src="{{ asset('img/600x360.png') }}" alt="">
                     <div class="col d-flex px-0">
-                        <img class="col-6 px-1 px-md-3" src="./image/502x302.png" alt="">
-                        <img class="col-6 px-1 px-md-3" src="./image/503x303.png" alt="">
+                        <img class="col-6 px-1 px-md-3" src="{{ asset('img/502x302.png') }}" alt="">
+                        <img class="col-6 px-1 px-md-3" src="{{ asset('img/503x303.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -218,7 +262,7 @@
             <div class="d-lg-flex p-md-5  justify-content-center">
                 <div class="d-md-flex col-lg-5 mb-4">
                     <div class="col col-md-6 col-lg-6 card pt-4 px-4 mx-auto" style="width: 34rem;">
-                        <img src="./image/720x400.png" class="card-img-top" alt="...">
+                        <img src="{{ asset('img/720x400.png') }}" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <h6 class="card-subtitle mb-2" style="color: #6366F1;">SUBTITLE</h6>
                             <h5 class="card-title">Chichen Itza</h5>
@@ -227,7 +271,7 @@
                         </div>
                     </div>
                     <div class="col col-md-6 col-lg-6 card pt-4 px-4 mx-auto mx-md-3" style="width: 34rem;">
-                        <img src="./image/721x401.png" class="card-img-top" alt="...">
+                        <img src="{{ asset('img/721x401.png') }}" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <h6 class="card-subtitle mb-2" style="color: #6366F1;">SUBTITLE</h6>
                             <h5 class="card-title">Colosseum Roma</h5>
@@ -238,7 +282,7 @@
                 </div>
                 <div class="d-md-flex col col-lg-5 mb-4">
                     <div class="col col-md-6 col-lg-6 card pt-4 px-4 mx-auto" style="width: 34rem;">
-                        <img src="./image/722x402.png" class="card-img-top" alt="...">
+                        <img src="{{ asset('img/722x402.png') }}" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <h6 class="card-subtitle mb-2" style="color: #6366F1;">SUBTITLE</h6>
                             <h5 class="card-title">Great Pyramid of Giza</h5>
@@ -247,7 +291,7 @@
                         </div>
                     </div>
                     <div class="col col-md-6 col-lg-6 card pt-4 px-4 mx-auto mx-md-3" style="width: 34rem;">
-                        <img src="./image/723x403.png" class="card-img-top" alt="...">
+                        <img src="{{ asset('img/723x403.png ') }}" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <h6 class="card-subtitle mb-2" style="color: #6366F1;">SUBTITLE</h6>
                             <h5 class="card-title">San Francisco</h5>
@@ -262,7 +306,7 @@
             <div class="col d-md-flex py-5 justify-content-between">
                 <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                     style="min-width: 128px; max-width: 128px; height: 128px;">
-                    <img src="./image/svgexport-9.svg" alt="">
+                    <img src="{{ asset('img/svgexport-9.svg ') }}" alt="">
                 </div>
                 <div class="col col-md-10">
                     <h5 class="card-title font-weight-normal">Shooting Stars</h5>
@@ -281,7 +325,7 @@
             <div class="d-md-flex flex-row-reverse py-5 ">
                 <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                     style="min-width: 128px; max-width: 128px; height: 128px;">
-                    <img src="./image/svgexport-11.svg" alt="">
+                    <img src="{{ asset('img/svgexport-11.svg') }}" alt="">
                 </div>
                 <div class="col col-md-10">
                     <h5 class="card-title font-weight-normal">Shooting Stars</h5>
@@ -300,7 +344,7 @@
             <div class="col d-md-flex py-5">
                 <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                     style="min-width: 128px; max-width: 128px; height: 128px;">
-                    <img src="./image/svgexport-12.svg" alt="">
+                    <img src="{{ asset('img/svgexport-12.svg') }}" alt="">
                 </div>
                 <div class="col-md-10">
                     <h5 class="card-title font-weight-normal">Shooting Stars</h5>
@@ -323,7 +367,7 @@
         <section class="py-5 d-lg-flex flex-wrap justify-content-center">
             <div class="col-12 col-md-10 col-lg-5 pt-5 d-md-flex mx-auto mx-lg-0">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/420x260.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/420x260.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">The Catalyzer</h5>
@@ -331,7 +375,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/421x261.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/421x261.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">Shooting Stars</h5>
@@ -341,7 +385,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-5 pt-5 d-md-flex mx-auto mx-lg-0">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/422x262.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/422x262.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">Neptune</h5>
@@ -349,7 +393,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/423x263.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/423x263.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">The 400 Blows</h5>
@@ -359,7 +403,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-5 pb-5 d-md-flex mx-auto mx-lg-0">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/424x264.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/424x264.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">The Catalyzer</h5>
@@ -367,7 +411,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/425x265.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/425x265.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">Shooting Stars</h5>
@@ -377,7 +421,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-5 pb-5 d-md-flex mx-auto mx-lg-0">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/427x267.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/427x267.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">Neptune</h5>
@@ -385,7 +429,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <img src="./image/428x268.png" class="card-img-top" alt="...">
+                    <img src="{{ asset('img/428x268.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text"><small class="text-muted">CATEGORY</small></p>
                         <h5 class="card-title">The 400 Blows</h5>
@@ -396,23 +440,24 @@
         </section>
         <section class="pb-5">
             <div class="mb-3 col-lg-8 mx-auto d-md-flex">
-                <img class="col-lg-6" src="./image/400x400.png" alt="...">
+                        <img class="col-6 px-1 px-md-3" src="./image/ {{ asset('img/503x303.png') }}" alt="">
+                <img class="col-lg-6" src="{{ asset('400x400.png') }}" alt="...">
                 <div class="col-lg-6">
                     <p class="card-text pt-3"><small class="text-muted">BRAND NAME</small></p>
                     <h2 class="card-title ">The Catcher in the Rye</h2>
                     <div class="d-flex">
                         <div class="border-right pr-3">
-                            <img src="./image/svgexport-13.svg" alt="">
-                            <img src="./image/svgexport-13.svg" alt="">
-                            <img src="./image/svgexport-13.svg" alt="">
-                            <img src="./image/svgexport-13.svg" alt="">
-                            <img src="./image/svgexport-14.svg" class="mr-2" alt="">
+                            <img src="{{ asset('img/svgexport-13.svg') }}" alt="">
+                            <img src="{{ asset('img/svgexport-13.svg') }}" alt="">
+                            <img src="{{ asset('img/svgexport-13.svg') }}" alt="">
+                            <img src="{{ asset('img/svgexport-13.svg') }}" alt="">
+                            <img src="{{ asset('img/svgexport-13.svg') }}" class="mr-2" alt="">
                             <span class="h5">4 Reviews</span>
                         </div>
                         <div class="pl-3">
-                            <img src="./image/svgexport-15.svg" alt="">
-                            <img src="./image/svgexport-16.svg" alt="">
-                            <img src="./image/svgexport-17.svg" alt="">
+                            <img src="{{ asset('img/svgexport-15.svg ') }}" alt="">
+                            <img src="{{ asset('img/svgexport-16.svg') }}" alt="">
+                            <img src="{{ asset('img/svgexport-17.svg') }}" alt="">
                         </div>
                     </div>
                     <p class="card-text pt-5">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha
@@ -445,7 +490,7 @@
                                 style="background-color:#6366F1 ;">Button</button>
                             <div class="rounded-circle text-center"
                                 style="width: 40px; height: 40px; background-color: #E5E7EB; line-height: 40px;">
-                                <img src="./image/svgexport-19.svg" alt="">
+                                <img src="{{ asset('img/svgexport-19.svg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -481,3 +526,8 @@
 
 @section('js')
 @endsection
+
+<!--
+    to link css and images: put into /plublic folder 
+    Can access on url
+-->
