@@ -16,7 +16,12 @@
 
 ### Composer
  install xampp first. VScode -> terminal <br>
-> check php path
+1. ignore developer mode
+2. choose xampp php
+3. skip proxy
+4. install
+5. Cmd
+`composer`
 
 ### Node.js
    download 14.16.1 LTS
