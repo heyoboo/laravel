@@ -101,7 +101,8 @@
     </header>
 
     <main>
-        
+        <!-- yield: dig a hole -->
+        @yield('main');
     </main>
 
 

@@ -82,3 +82,9 @@
 choose
 - routes/web.php  *where routes' assigned*
 - views/welcome.blade.php *where views files assigned* *e.g. xxx.blade.php*
+
+
+
+
+test
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
