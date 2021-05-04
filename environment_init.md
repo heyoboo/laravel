@@ -40,7 +40,7 @@
 
 
 
-# Vscode extensions
+# VScode extensions
 - lavarel extension pack
 - material icon theme
 - php namespace resolver
