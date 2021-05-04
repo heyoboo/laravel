@@ -1,12 +1,12 @@
 # How backend works
 request <br>
-    server <br>
-        1. gets url <br>
-        2. performs logic <br>
-            a. interact with database <br>
-            b. conditional statements <br>
-            c. updates page elements <br>
-        3. return data
+server <br>
+1. gets url <br>
+2. performs logic <br>
+  a. interact with database <br>
+  b. conditional statements <br>
+  c. updates page elements <br>
+3. return data
 
 
 
