@@ -79,7 +79,7 @@
 <br><br>
 
 
-### Open file
+# Iterate file
 choose
 - routes/web.php  *where routes' assigned*
 - views/welcome.blade.php *where views files assigned* *e.g. xxx.blade.php*
