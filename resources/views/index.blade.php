@@ -128,7 +128,7 @@
                         <div class="col-md-4  col-lg-3">
                             <div class=" lightblue mx-auto rounded-circle d-flex justify-content-center align-items-center"
                                 style="width: 80px; height: 80px;">
-                                <img src="{{ asset('svgexport-7.svg') }}" alt="">
+                                <img src="{{ asset('img/svgexport-7.svg') }}" alt="">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-normal">Neptune</h5>
@@ -440,8 +440,7 @@
         </section>
         <section class="pb-5">
             <div class="mb-3 col-lg-8 mx-auto d-md-flex">
-                        <img class="col-6 px-1 px-md-3" src="./image/ {{ asset('img/503x303.png') }}" alt="">
-                <img class="col-lg-6" src="{{ asset('400x400.png') }}" alt="...">
+                <img class="col-lg-6" src="{{ asset('img/400x400.png') }}" alt="...">
                 <div class="col-lg-6">
                     <p class="card-text pt-3"><small class="text-muted">BRAND NAME</small></p>
                     <h2 class="card-title ">The Catcher in the Rye</h2>

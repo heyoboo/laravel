@@ -111,7 +111,7 @@
     <footer>
         <div class="row mr-0 py-md-5 mb-5 px-5 justify-content-between align-items-center d-flex">
             <div class="text-center text-md-left col col-md-3 col-lg-2 pb-4">
-                <img src="./image/svgexport-20.svg" alt="">
+                <img src="{{ asset('img/svgexport-20.svg') }}" alt="">
                 <span class="h5 pl-2">數位方塊</span>
                 <p class="pt-2 text-muted"><small>Air plant banjo lyft occupy retro adaptogen indego</small></p>
             </div>
@@ -153,9 +153,9 @@
         <div class="bg-light d-md-flex py-3 px-5 justify-content-between text-center align-items-center">
             <div><small>© 2020 Tailblocks — @knyttneve</small></div>
             <div class="d-flex align-items-center justify-content-center">
-                <img src="./image/svgexport-21.svg" alt="" class="px-1">
-                <img src="./image/svgexport-22.svg" alt="" class="px-1">
-                <img src="./image/svgexport-23.svg" alt="" class="px-1">
+                <img src="{{ asset('svgexport-21.svg') }}" alt="" class="px-1">
+                <img src="{{ asset('svgexport-22.svg') }}" alt="" class="px-1">
+                <img src="{{ asset('svgexport-23.svg') }}" alt="" class="px-1">
                 <div class="pt-1">
                     <i class="fab fa-linkedin-in px-2 text-secondary"
                         style="font-size: 24px; "></i></div>
