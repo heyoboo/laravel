@@ -11,23 +11,22 @@ request
 
 
 # Installation
-**Xampp**
+- Xampp
 > download php 7.4.16
 
-**Composer**
+- Composer
 > install xampp first. VScode -> terminal
     check php path
 
-**Node.js**
+- Node.js
 > download 14.16.1 LTS
 
-**HeidiSQL**
+- HeidiSQL
 
-**VS code**
+- VS code
 
-**Github**
-
-**Laravel7**
+- Github
+- Laravel7
 > VScode -> terminal
     composer create-project --prefer-dist laravel/  laravel:^7.0 [project name]
 
@@ -52,7 +51,7 @@ request
 
 
 # Create new repository on github
-Git ignore 'Lavaral'
+> Git ignore 'Lavaral'
 
 
 

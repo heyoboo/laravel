@@ -13,12 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// get root's view and returns welcome.blade.php (= html)
 Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
 // creat custom route // open on url - /test
-route::get('test',function(){
+Route::get('varTest',function(){
     
     // variable declaration
     $data = 'abc';
@@ -46,7 +50,18 @@ route::get('test',function(){
     return 'hello world hhahahahahhhahahha';
 });
 
+
+
 // another custom url lmao
-route::get('hehe/pfff',function(){
+Route::get('hehe/pfff',function(){
     return 'HEHEHEHEHE';
+});
+
+
+
+Route::get('test',function(){
+    $data = '123';
+    return view('test', ['data'=>123]);
+    // or: return view('test', compact('data));
+    
 });
