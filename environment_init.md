@@ -34,7 +34,7 @@
 
 # Check installation on cmd
 ## change directory 
-> dc [project name] <br>
+> cd [project name] <br>
 ## xampp
 > php -v <br>
 ## composer
