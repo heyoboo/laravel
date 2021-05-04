@@ -1,6 +1,6 @@
 # How backend works
 ### request <br>
-### server <br>
+* server <br>
 1. gets url <br>
 2. performs logic <br>
   * a. interact with database <br>
