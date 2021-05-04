@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// creat custom route // open on url - /test
+route::get('test',function(){
+    return 'hello world hhahahahahhhahahha';
+});
+
+// another custom url lmao
+route::get('hehe/pfff',function(){
+    return 'HEHEHEHEHE';
+});
