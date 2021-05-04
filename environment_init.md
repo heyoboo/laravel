@@ -61,13 +61,13 @@
 
 
 # Create new repository on github
-> Git ignore 'Lavaral'
+Git ignore 'Lavaral'
 
 
 
 # Open on other computers
-> Delete repository and local folder of project <br>
-> clone -> choose laveral project -> set folder path 
+1. Delete repository and local folder of project <br>
+2. clone -> choose laveral project -> set folder path 
 
 
 # install back
@@ -90,8 +90,8 @@ VsCode -> terminal <br>
 
 # Iterate file
 choose
-- routes/web.php  *where routes' assigned*
-- views/welcome.blade.php *where views files assigned* *e.g. xxx.blade.php*
+- routes/web.php  **where routes' assigned**
+- views/welcome.blade.php **where views files assigned** **e.g. xxx.blade.php**
 
 
 
