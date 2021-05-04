@@ -1,14 +1,13 @@
 # How backend works
-<pre>
 ## request <br>
-    server <br>
-        1. gets url <br>
-        2. performs logic <br>
-            a. interact with database <br>
-            b. conditional statements <br>
-            c. updates page elements <br>
-        3. return data
-</pre>
+&nbsp;server <br>
+&nbsp;&nbsp;1. gets url <br>
+&nbsp;&nbsp;2. performs logic <br>
+&nbsp;&nbsp;&nbsp;a. interact with database <br>
+&nbsp;&nbsp;&nbsp;b. conditional statements <br>
+&nbsp;&nbsp;&nbsp;c. updates page elements <br>
+&nbsp;&nbsp;3. return data
+
 
 
 # Installation
