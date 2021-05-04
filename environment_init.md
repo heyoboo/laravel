@@ -27,7 +27,7 @@
 
 - Github
 - Laravel7
-> VScode -> terminal
+> VScode -> terminal <br>
     composer create-project --prefer-dist laravel/  laravel:^7.0 [project name]
 
 
