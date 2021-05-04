@@ -56,7 +56,7 @@
 
 
 
-### For other computers
+# Open on other computers
 > Delete repository and local folder of project <br>
 > clone -> choose laveral project -> set folder path 
 
