@@ -75,7 +75,7 @@
 <br><br>
 *DO NOT ADD NEW TEMINAL* <br>
 *SPLIT TERMINAL THEN USE COMMAND*
-
+<br><br>
 
 
 ### Open file
