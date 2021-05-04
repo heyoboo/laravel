@@ -71,12 +71,12 @@
 
 
 # install back
-> terminal <br>
+VsCode -> terminal <br>
 `composer install` <br>
 `npm install`
 
 # copy 'env.exmple' and paste and change to '.env'
-> terminal <br>
+VsCode -> terminal <br>
 `php artisan key:gen` <br>
 `php artisan serve`
 
