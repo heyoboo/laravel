@@ -62,12 +62,12 @@
 # install back
 > terminal
     composer install <br>
-    npm install <br>
+    npm install
 
 # copy 'env.exmple' and paste and change to '.env'
 > terminal 
     php artisan key:gen <br>
-    php artisan serve <br>
+    php artisan serve
 
 
 
