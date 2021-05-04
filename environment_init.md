@@ -34,20 +34,20 @@ request
 
 
 # Check installation on cmd
-change directory => dc [project name]
-xampp => php -v
-composer => composer -v
-artisan => php artisan serve
+> change directory => dc [project name]
+> xampp => php -v
+> composer => composer -v
+> artisan => php artisan serve
 
 
 
 # Vscode extensions
-lavarel extension pack
-material icon theme
-php namespace resolver
-php extension
-bracket pair colorizer
-<!-- power mode (launch firework when typing ???????) -->
+- lavarel extension pack
+- material icon theme
+- php namespace resolver
+- php extension
+- bracket pair colorizer
+- *power mode (launch firework when typing ???????)*
 
 
 
